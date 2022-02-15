@@ -1,0 +1,22 @@
+Xedice, evvela seni tebrik edirem ki bu proyekti yaratmaga muveffeq oldun. Arashdirma qabiliyyetini ortaya qoydun.
+Zamanla duzelecek bu xetalar ve alinacaq.
+
+Whatsappdan shekil surushdurme, cunki sheklin formatini .jfif edir ve bu da shekli korlayir (sol terefe bax)
+
+Githuba gondermek usulu: 
+evvelce github.com da repo yarat (bayaq yaratdim , adini qoydum messenger clone)
+
+
+1. yazirsan terminalda 
+git init
+
+yuxaridaki echo ile bashlayani yazma o sene lazim deyil
+
+2-ci yazirsan git add .
+fikir ver orada README.MD yazilib bu o demekdir ki githuba bir dene READMe fayli elave edecek
+amma sene lazimdi ki proyektindeki butun fayllar getsin
+ona gore de  README.MD yerine boshluq noqte qoy
+ardini da oldugu kimi yazirsan  i vse
+
+
+DIQQETLE BAX

@@ -1,0 +1,437 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+li {
+    list-style: none;
+   
+}
+ul li:nth-child(2) {
+    color: #ddd;
+    margin-left: 16px; 
+    font-size: 14px;
+}
+
+
+.header{
+display: flex;
+justify-content: space-between;
+height: 40px;
+border-bottom: 1px solid #ddd;
+cursor: pointer;
+align-items: center;
+padding: 0 15px;
+position: relative;
+
+}
+
+
+ div a {
+     text-decoration: none;
+
+} 
+
+.logo{
+    position: absolute;
+    font-weight: bold;
+left: 140px;
+color: black;
+
+}
+.icon-1{
+    position: absolute;
+    bottom: 10px;
+    left: 4px; 
+
+}
+.icon-2{
+    position: absolute;
+    left: 370px;
+    bottom: 10px;   
+  
+  height: 100px;
+margin-right: 3px; 
+
+
+
+}
+/* bu birinci variantimiz*/
+/* .icon-2::after {
+    content:'|';
+    color:#ff0000;
+    position:absolute;
+    left:25px;
+    
+
+} 
+
+ sesli izahata ehtiyac varsa yaz mene vhatsappdan */
+ .vertical-line {
+    border-right: 1px solid #ddd;
+    height: 1315px;
+    position: absolute;
+    left: 400px;
+} 
+
+.icons{
+    position: relative;
+    
+}
+
+.fa-solid {
+    margin: 5px;
+}
+
+.button {
+    display:inline-block;
+    height: 22px;
+    width: 20px;
+    background-color: rgb(0, 110, 255);
+    border-radius: 10px;
+    color: #fff;
+    text-align: center; 
+
+}
+.container{
+    height: calc(100%-60px);
+    display: flex;
+    position: relative;
+}
+
+ .container .sidebar{
+     width: 400px;
+     font-size: 15px;
+ }
+ .s-input{
+  
+     width: 95%;
+     text-align: center; 
+     background: rgb(240, 238, 238);
+     padding: 2px;
+    margin-top: 7px;
+    margin-left: 4px;
+    color: #F6F7F9;
+ }
+ .search-icon {
+     position: absolute;
+    width: 18px;
+    top: 10px;
+    left: 70px;
+ }
+  
+.image{
+    
+    margin-top: 8px;
+    margin-bottom: 6px;
+    position: relative; 
+    cursor: pointer;
+}
+
+ .image-1{
+     object-fit: cover;
+    width: 40px;
+    height:40px; 
+ margin-top: 12px;
+ margin-left: 4px;
+ border-radius: 40px ; 
+ 
+}
+
+
+
+
+.div{
+    width: 400px;
+    height: 70px;
+    background: #F2F2F2;
+   
+}
+ .image-2{
+    object-fit:cover;
+   width: 40px;
+   height:40px; 
+margin-top: 15px;
+left: 4px;
+border-radius: 40px ;
+position: absolute;
+ }
+
+ .image-3 {
+     width: 40px;
+     height: 40px;
+     border-radius: 40px;
+     object-fit: cover; 
+     position: absolute;
+     margin-top: 80px ;  
+     left: 4px;
+     
+ }
+ 
+ .image-4 {
+     width: 40px; 
+     height: 40px; 
+     border-radius: 40px;
+     position: absolute; 
+     margin-top: 140px ; 
+     left: 4px; 
+     object-fit: cover;
+
+ }
+
+ .image-5 {
+     width: 40px;
+     height: 40px; 
+     border-radius: 40px; 
+     position: absolute;
+     margin-top: 200px ; 
+     left: 4px;
+     object-fit: cover;
+ }
+
+ .image-6 {
+     width: 40px; 
+     height: 40px; 
+     border-radius: 40px;
+     position: absolute; 
+     margin-top: 260px;
+     left: 4px;
+object-fit: cover;
+ }
+ .image-7 {
+     width: 40px;
+     height: 40px;
+     border-radius: 40px; 
+     position: absolute;
+     margin-top: 320px;
+     left: 4px;
+     object-fit: cover;
+
+ }
+.image-8{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    position: absolute;
+    margin-top: 380px; 
+    left: 4px;
+    object-fit: cover;
+}
+.image-9{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    position: absolute;
+    margin-top: 440px;
+    left: 4px;
+    object-fit: cover;
+}
+.image-10{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    position: absolute;
+    object-fit: cover;
+    margin-left: 700px;
+    top: 15px;
+}
+
+
+
+.name-1{
+  
+    position: absolute; 
+    top: 10px;
+    left: 57px;
+    justify-content: space-between;
+}
+.name-2{
+position: absolute;
+top: 85px ; 
+left: 57px;
+border-bottom: 1px solid #ddd;
+height:40px ;
+width: 343px ;
+}
+.name-3{
+    position: absolute;
+    top: 150px;
+    left: 57px;
+    border-bottom: 1px solid #ddd; 
+    height: 40px; 
+    width: 343px;
+}
+.name-4{
+    position: absolute; 
+    top: 210px;
+    left: 57px;
+    border-bottom: 1px solid #ddd;
+    height: 40px; 
+    width: 343px;
+}
+.name-5
+{
+    position: absolute;
+    top: 270px;
+    left: 57px;
+border-bottom: 1px solid #ddd;
+height: 40px;
+width: 343px;
+}
+.name-6{
+    position: absolute;
+    top: 330px;
+    left: 57px;
+    border-bottom: 1px solid #ddd; 
+    height: 40px;
+    width: 343px;
+
+}
+
+.name-7{
+    position: absolute;
+    top: 390px;
+    left: 57px; 
+border-bottom: 1px solid #ddd;
+height: 40px;
+width: 343px;
+
+}
+.name-8{
+    position: absolute;
+    top: 450px;
+    left: 57px;
+    border-bottom: 1px solid #ddd;
+    height: 40px;
+    width: 343px; 
+
+}
+.name-9 {
+    position: absolute;
+    top:510px ;
+    left: 57px;
+}
+.name-10{
+    position: absolute;
+    margin-left: 750px;
+    top:15px ;
+    
+    }
+    .name-11{
+    position: absolute;
+    color: #ddd;
+    left: 1150px;
+    top: 33px ; 
+    font-size: 14px;
+    border-bottom: 1px solid #ddd;
+    height: 35px;
+    width: 400px;
+    }
+   .name-12{
+    position: absolute;
+    color: rgba(168, 148, 148, 0.867);
+    left: 1120px;
+    top: 100px ; 
+    height: 35px;
+    width: 400px;  
+   
+   }
+   .link{
+    position: absolute;
+    color: rgba(168, 148, 148, 0.867);
+    left: 1120px;
+    top: 130px ; 
+    height: 35px;
+    width: 400px ;
+    color: rgb(22, 22, 236);
+   
+}
+
+    
+
+.content span { 
+    color: #ddd;
+     font-size: 15px; 
+    position: relative;
+     left: 300px;
+     top: 20px;
+    
+    }
+
+
+
+.content .mesaj {
+    background-color: rgb(140, 0, 255);
+    width: 100px;
+    height: 30px;
+   display: flex ;
+   flex-direction: row;
+   border-radius: 50px;
+justify-content: center; 
+padding: 7px;
+position: relative;
+left: 550px;
+cursor: pointer;
+} 
+
+.icons-1{
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    font-size: 14px;
+}
+.icons-2{
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    font-size: 14px;
+}
+.icons-3{
+    position: absolute;
+    top:165px ;
+    left:50px ;
+    font-size:14px;
+}
+.icons-4{
+    position: absolute;
+    top: 225px;
+    left: 50px;
+    font-size: 14px;
+}
+.icons-5{
+    position: absolute;
+    top: 285px;
+    left: 50px;
+    font-size: 14px;
+}
+.icons-6{
+    position: absolute;
+    top: 345px;
+    left: 50px;
+    font-size:14px;
+}
+.icons-7{
+    position: absolute;
+    top: 405px;
+    left: 50px;
+    font-size:14px;
+}
+.icons-8{
+    position: absolute;
+    top: 465px;
+    left: 50px;
+    font-size:14px;
+}
+.icons-9{
+    position: absolute;
+    top: 525px;
+    left: 50px;
+    font-size:14px;
+}
